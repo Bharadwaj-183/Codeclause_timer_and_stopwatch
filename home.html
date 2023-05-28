@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop watch And Timer</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- STOP WATCH -->
+    <div class="container">
+      <h2>Stopwatch</h2>
+      <p>
+        <span id="seconds">00</span><span class="dots">:</span
+        ><span id="tens">00</span>
+      </p>
+      <button id="button-start">Start</button>
+      <button id="button-stop">Stop</button>
+      <button id="button-reset">Reset</button>
+    </div>
+
+    <!-- TIMER -->
+    <div class="container">
+      <h2>Countdown Timer</h2>
+      <div class="center">
+        <p>Enter <b>TIMER</b> Value in seconds And Press ENTER</p>
+      </div>
+
+      <input id="tInput" class="tInput" placeholder="Timer Value" />
+      <br /><br />
+
+      <div id="timer" class="timer-display">Enter ↑ Value</div>
+      <small><sup>seconds</sup></small>
+      <br />
+
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+  </body>
+</html>
